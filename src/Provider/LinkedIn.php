@@ -4,7 +4,6 @@ namespace League\OAuth2\Client\Provider;
 
 use League\OAuth2\Client\Provider\Exception\IdentityProviderException;
 use League\OAuth2\Client\Token\AccessToken;
-use League\OAuth2\Client\Tool\BearerAuthorizationTrait;
 use Psr\Http\Message\ResponseInterface;
 
 class LinkedIn extends AbstractProvider
